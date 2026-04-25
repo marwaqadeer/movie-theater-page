@@ -6,6 +6,11 @@ body{
     color: #fff;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /* Header */
 header{
     background-color: #000;
@@ -40,6 +45,10 @@ nav a:hover{
     text-align: center;
     padding: 60px 20px;
     background-color: #222;
+}
+
+.hero p{
+    margin-bottom: 15px;
 }
 
 .hero button{
@@ -77,6 +86,8 @@ nav a:hover{
 
 .card img{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
